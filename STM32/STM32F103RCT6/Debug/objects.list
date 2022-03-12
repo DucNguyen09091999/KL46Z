@@ -1,0 +1,3 @@
+"./Source/main.o"
+"./Source/startup_stm32f103rctx.o"
+"./Source/system_stm32f1xx.o"

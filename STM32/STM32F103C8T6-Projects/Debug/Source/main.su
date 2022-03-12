@@ -1,0 +1,7 @@
+main.c:6:6:SystemClockInit	4	static
+main.c:15:6:UART_Init	4	static
+main.c:26:6:GPIO_Init	4	static
+main.c:33:6:UartTxMsg	24	static
+main.c:43:6:UartRxMsg	24	static
+main.c:53:6:delay	16	static
+main.c:59:5:main	16	static

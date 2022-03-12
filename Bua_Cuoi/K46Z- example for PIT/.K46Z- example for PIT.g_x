@@ -1,0 +1,193 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="32">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL46Z4/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL46Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MKL46Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Asm_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherC</name>
+      <value>-specs=nosys.specs -specs=nano.specs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="32">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL46Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL46Z4/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL46Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MKL46Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherCpp</name>
+      <value>-specs=nosys.specs -specs=nano.specs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MKL46Z256VLL4"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464358" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/sim/MKL46Z4/fsl_sim_hal_MKL46Z4.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464108" FileType="1048576" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2015-08-26, 14:48:21" FileAge="1440580701184" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/hal/src/sim/MKL46Z4/fsl_sim_hal_MKL46Z4.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464066" FileType="1048576" />
+      <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464871" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464700" FileType="1048576" />
+      <File Name="Generated_Code/osa1.h" FileDate="2015-08-26, 14:27:45" FileAge="1440579465548" FileType="45637" CompNumb="12" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464188" FileType="1048576" />
+      <File Name="Generated_Code/osa1.c" FileDate="2015-08-26, 14:27:45" FileAge="1440579465537" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/board.h" FileDate="2015-08-26, 14:27:45" FileAge="1440579465565" FileType="45637" CompNumb="7" />
+      <File Name="Sources/Events.h" FileDate="2015-08-26, 14:48:21" FileAge="1440580701304" FileType="131328" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2015-08-26, 14:27:43" FileAge="1440579463994" FileType="1048576" />
+      <File Name="Sources/Events.c" FileDate="2015-08-26, 14:48:21" FileAge="1440580701343" FileType="131328" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2015-08-26, 14:27:45" FileAge="1440579465701" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2015-08-26, 14:48:19" FileAge="1440580699939" FileType="1048576" />
+      <File Name="Sources/main.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700988" FileType="128" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2015-08-26, 14:27:45" FileAge="1440579465694" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464242" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464045" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464762" FileType="1048576" />
+      <File Name="ProjectInfo.xml" FileDate="2015-08-26, 14:48:22" FileAge="1440580702844" FileType="45637" />
+      <File Name="SDK/platform/drivers/src/pit/fsl_pit_common.c" FileDate="2015-08-26, 14:48:19" FileAge="1440580699878" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2015-08-26, 14:48:20" FileAge="1440580700091" FileType="1048576" />
+      <File Name="Documentation/K46Z- example for PIT_Settings.xml" FileDate="2015-08-26, 14:48:21" FileAge="1440580701713" FileType="3072" />
+      <File Name="SDK/platform/CMSIS/Include/core_cm0plus.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464476" FileType="1048576" />
+      <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4_features.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464902" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_pit_hal.h" FileDate="2015-08-26, 14:48:19" FileAge="1440580699739" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464695" FileType="1048576" />
+      <File Name="SDK/platform/devices/MKL46Z4/include/fsl_bitaccess.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464859" FileType="1048576" />
+      <File Name="SDK/platform/devices/MKL46Z4/startup/system_MKL46Z4.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464996" FileType="1048576" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2015-08-26, 14:27:43" FileAge="1440579463357" FileType="16384" CompNumb="1" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464366" FileType="1048576" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2015-08-26, 14:48:21" FileAge="1440580701257" FileType="45637" CompNumb="1" />
+      <File Name="Generated_Code/gpio1.h" FileDate="2015-08-26, 14:48:20" FileAge="1440580700667" FileType="45637" CompNumb="16" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464291" FileType="1048576" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700656" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2015-08-26, 14:27:45" FileAge="1440579465331" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464139" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464028" FileType="1048576" />
+      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2015-08-26, 14:27:45" FileAge="1440579465007" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464793" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pit/fsl_pit_driver.c" FileDate="2015-08-26, 14:48:19" FileAge="1440580699887" FileType="1048576" />
+      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464307" FileType="1048576" />
+      <File Name="Documentation/doxygen/K46Z- example for PIT_project.txt" FileDate="2015-08-26, 14:27:45" FileAge="1440579465274" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2015-08-26, 14:27:43" FileAge="1440579463964" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464125" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700033" FileType="1048576" />
+      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464312" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/fsl_pit_driver.h" FileDate="2015-08-26, 14:48:19" FileAge="1440580699927" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464753" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2015-08-26, 14:48:19" FileAge="1440580699934" FileType="1048576" />
+      <File Name="Documentation/K46Z- example for PIT.txt" FileDate="2015-08-26, 14:48:22" FileAge="1440580702876" FileType="3072" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2015-08-26, 14:27:45" FileAge="1440579465066" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464381" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464256" FileType="1048576" />
+      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464815" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/pit/fsl_pit_hal.c" FileDate="2015-08-26, 14:48:19" FileAge="1440580699690" FileType="1048576" />
+      <File Name="SDK/platform/system/src/clock/MKL46Z4/fsl_clock_MKL46Z4.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464230" FileType="1048576" />
+      <File Name="Generated_Code/SDK/platform/devices/MKL46Z4/startup/system_MKL46Z4.h" FileDate="2015-08-26, 14:27:45" FileAge="1440579465679" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464118" FileType="1048576" />
+      <File Name="SDK/platform/system/src/clock/MKL46Z4/fsl_clock_MKL46Z4.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464211" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464297" FileType="1048576" />
+      <File Name="Generated_Code/pitTimer1.h" FileDate="2015-08-26, 14:48:20" FileAge="1440580700693" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/pitTimer1.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700682" FileType="45637" CompNumb="14" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700060" FileType="1048576" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700963" FileType="45637" CompNumb="7" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464181" FileType="1048576" />
+      <File Name="Generated_Code/pin_init.h" FileDate="2015-08-26, 14:48:20" FileAge="1440580700834" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/pin_init.c" FileDate="2015-08-26, 14:48:20" FileAge="1440580700870" FileType="45637" CompNumb="7" />
+      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464803" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464133" FileType="1048576" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2015-08-26, 14:27:45" FileAge="1440579465311" FileType="8" CompNumb="1" />
+      <File Name="SDK/platform/devices/MKL46Z4/startup/gcc/startup_MKL46Z4.S" FileDate="2015-08-26, 14:27:44" FileAge="1440579464978" FileType="1048576" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464919" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464053" FileType="1048576" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2015-08-26, 14:48:21" FileAge="1440580701066" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/devices/MKL46Z4/include/MKL46Z4_extension.h" FileDate="2015-08-26, 14:27:44" FileAge="1440579464891" FileType="1048576" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2015-08-26, 14:27:44" FileAge="1440579464909" FileType="1048576" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>3</CodeGenReference>
+</CodeGenerationInfo>

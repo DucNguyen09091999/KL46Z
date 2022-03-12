@@ -1,0 +1,58 @@
+#include <stm32f1xx.h>
+#include <main.h>
+/*****************************************************************************/
+void SystemClockInit(void) /*8MHz internal Clock*/
+{
+	RCC->CR |= 1<<0; /* enable HSI clock */
+	while((RCC->CR & RCC_CR_HSIRDY_Msk) == 0);
+	RCC->APB2ENR |= (uint32_t)(1<<0); /* Alternate Function I/O clock enabled */
+	RCC->APB2ENR |= (uint32_t)(1<<2);/* I/O port A clock enable */
+}
+/*****************************************************************************/
+void GPIO_Init()
+{
+	/* Init LED */
+	RCC->APB2ENR |= RCC_APB2ENR_IOPCEN_Msk;
+	GPIOC->CRH &=~ (0xF << 20);	/*PC13:Clear all default options */
+	GPIOC->CRH |= (0b0110<<20); /*PC13: General purpose output Open-drain and Output mode, max speed 2 MHz*/
+	/* Init Buttom */
+	RCC->APB2ENR |= RCC_APB2ENR_IOPAEN_Msk;
+	GPIOA->CRL &=~ (0xF<<0); /*PA0:Clear all default options */
+	GPIOA->CRL |=(0b1000<<0); /* Input pull up/down mode */
+	GPIOA->ODR |= (1<<0);
+}
+/*****************************************************************************/
+void delay(uint32_t time)
+{
+	while(time--);
+}
+/*****************************************************************************/
+void TogleLed()
+{
+	/*GPIOC->ODR &=~(1<<13);
+	delay(0xFFFFFF);
+	GPIOC->ODR |=1<<13;
+	delay(0xFFFFFF);*/
+	/*delay(0xFFFF);
+	GPIOC->ODR ^=(1<<13);
+	delay(0xFFFF);*/
+	if((GPIOA->IDR && (1<<0)) == 0)
+	{
+		GPIOC->ODR &=~(1<<13);
+	}
+	else
+	{
+		GPIOC->ODR |= (1<<13);
+	}
+}
+/*****************************************************************************/
+int main()
+{
+	SystemClockInit();
+	GPIO_Init();
+	while(1)
+	{
+		TogleLed();
+	}
+	return 0;
+}

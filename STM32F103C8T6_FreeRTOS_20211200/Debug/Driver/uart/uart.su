@@ -1,0 +1,3 @@
+uart.c:11:6:UART_Init	8	static
+uart.c:26:6:UartTxMsg	24	static
+uart.c:36:6:UartRxMsg	24	static
